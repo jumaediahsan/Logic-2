@@ -12,7 +12,7 @@ function soal1(n) {
       }
     }
   }
-
+///kjhgfdszszdfghjkl;kjhgfdfghjkl;
   console.log(a);
 }
 
