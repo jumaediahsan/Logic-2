@@ -109,4 +109,19 @@ function soal6(n) {
   console.log(a);
 }
 
+//xSoal 7
+function soal2(n) {
+  for (let y = 1; y <= n; y++) {
+    a[y] = new Array(y);
+    for (let x = 1; x <= n; x++) {
+      if (x == n-(y-1) ) {
+        a[y][x] = "*";
+      } else {
+        a[y][x] = "_";
+      }
+    }
+  }
+  console.log(a);
+}
+
 soal6(9);
